@@ -1,0 +1,47 @@
+body{
+    background: #f1f1f1;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    margin-bottom: 3%;
+}
+
+.navbar {
+    background: #151515;
+    width: 100%;
+    
+}
+
+.navbar__menu{
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+}
+
+.navbar__link{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__text {
+    color: white;
+    margin-left: 15px;
+
+}
+
+@media only screen and (max-width: 500px){
+    
+body{
+    background-color: white;
+}
+
+}
+
+@media only screen and (max-width: 416px){ 
+    .navbar__text {
+        font-size: 13px;
+    }
+}
